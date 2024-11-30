@@ -17,8 +17,6 @@ public class SelectionSort {
                     minIdx = j;
                 }
             }
-
-            // Swap
             JadwalUjian temp = jadwalUjian[minIdx];
             jadwalUjian[minIdx] = jadwalUjian[i];
             jadwalUjian[i] = temp;
